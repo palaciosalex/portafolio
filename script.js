@@ -7,6 +7,6 @@ var textos=[
 
 
 function cargarfoto(img, txt,nproy){
-document.getElementById("galeria"+nproy).src="img/proyecto"+nproy+"/img"+img+".png";
+document.getElementById("galeria"+nproy).src="img/proyecto"+nproy+"/img"+img+".PNG";
 document.getElementById("mitexto").innerHTML=textos[txt];
 }
